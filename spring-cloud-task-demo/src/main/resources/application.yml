@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: SpringCloudTaskDemoApplication
+logging:
+  level.org.springframework.cloud.task: debug
