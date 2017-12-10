@@ -9,18 +9,20 @@
 	<packaging>jar</packaging>
 
 	<name>spring-cloud-task-demo</name>
-	<description>Demo project for Spring Boot</description>
-
-	<properties>
-		<java.version>1.8</java.version>
-		<spring-cloud-task.version>1.2.2.RELEASE</spring-cloud-task.version>
-	</properties>
+	<description>Spring Cloud Task 第一个应用</description>
+	<parent>
+		<groupId>com.github.weiwei02</groupId>
+		<artifactId>spring-cloud-task-learning</artifactId>
+		<version>1.0-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-task</artifactId>
-		</dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-task</artifactId>
+            <version>${spring-cloud-task.version}</version>
+        </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -28,16 +30,6 @@
 		</dependency>
 	</dependencies>
 
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-task-dependencies</artifactId>
-				<version>${spring-cloud-task.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
+
 
 </project>
