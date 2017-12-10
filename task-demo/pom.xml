@@ -17,6 +17,20 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
+    <developers>
+        <developer>
+            <name>Wang Weiwei</name>
+            <email>weiwei02@vip.qq.com</email>
+            <roles>
+                <role>Project Owner</role>
+                <role>Developer</role>
+            </roles>
+            <organization>github</organization>
+            <organizationUrl>https://github.com/weiwei02</organizationUrl>
+            <url>http://www.jianshu.com/u/aa501451a235</url>
+        </developer>
+    </developers>
+
 	<dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
