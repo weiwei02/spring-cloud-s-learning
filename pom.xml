@@ -19,6 +19,7 @@
     <description>spring-cloud-task 学习示例项目</description>
     <modules>
         <module>task-demo</module>
+        <module>task-demo-with-datasource</module>
     </modules>
 
     <developers>
