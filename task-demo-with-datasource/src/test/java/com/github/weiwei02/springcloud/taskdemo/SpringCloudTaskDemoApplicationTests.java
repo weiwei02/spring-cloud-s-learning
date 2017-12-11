@@ -1,4 +1,4 @@
-package com.github.weiwei02.springcloudtaskdemo;
+package com.github.weiwei02.springcloud.taskdemo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

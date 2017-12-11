@@ -20,6 +20,7 @@
     <modules>
         <module>task-demo</module>
         <module>task-demo-with-datasource</module>
+        <module>batchparent</module>
     </modules>
 
     <developers>

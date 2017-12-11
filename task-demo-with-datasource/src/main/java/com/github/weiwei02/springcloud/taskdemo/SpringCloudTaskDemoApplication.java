@@ -1,4 +1,4 @@
-package com.github.weiwei02.springcloudtaskdemo;
+package com.github.weiwei02.springcloud.taskdemo;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
