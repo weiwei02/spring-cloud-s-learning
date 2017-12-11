@@ -13,6 +13,15 @@
     <artifactId>batch-parent</artifactId>
     <name>batch-parent</name>
     <description>Spring  Cloud Task 集成 Spring Batch 项目示例</description>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-task</artifactId>
+                <version>${spring-cloud-task.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 
 </project>
