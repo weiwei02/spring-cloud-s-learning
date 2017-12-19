@@ -22,7 +22,7 @@ public class JPAConfigure {
         vendorAdapter.setGenerateDdl(true);
         LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
         factory.setJpaVendorAdapter(vendorAdapter);
-        factory.setPackagesToScan(getClass().getPackage().getName());
+        factory.setPackagesToScan("com.github.weiwei02.springcloud.task");
         factory.setDataSource(dataSource);
 
         return factory;

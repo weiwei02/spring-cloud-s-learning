@@ -1,5 +1,7 @@
 package com.github.weiwei02.springcloud.task.batch.peoplebatch.entity;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
 /**
@@ -9,6 +11,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "sample_person")
+@Data
 public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
