@@ -1,4 +1,0 @@
-spring:
-  application:
-    name: task-demo-with-datasource
-logging.level.org.springframework.cloud.task: DEBUG

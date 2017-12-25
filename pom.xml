@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.weiwei02</groupId>
-    <artifactId>spring-cloud-task-learning</artifactId>
+    <artifactId>spring-cloud-learning</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>spring-cloud-task-learning</name>
+    <name>spring-cloud-learning</name>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -16,11 +16,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <description>spring-cloud-task 学习示例项目</description>
+    <description>spring-cloud 学习示例项目</description>
     <modules>
-        <module>task-demo</module>
-        <module>task-demo-with-datasource</module>
-        <module>batchparent</module>
+        <module>spring-cloud-task-learning</module>
+        <module>spring-data-flow-learning</module>
     </modules>
 
     <developers>

@@ -1,4 +1,0 @@
-spring:
-  application:
-    name: HelloWorld
-logging.level.org.springframework.cloud.task: DEBUG
