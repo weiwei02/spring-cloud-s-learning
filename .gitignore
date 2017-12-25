@@ -113,6 +113,29 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+### Kotlin template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 ### Java template
 # Compiled class file
 *.class
@@ -136,4 +159,21 @@ fabric.properties
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+### MetaProgrammingSystem template
+workspace.xml
+junitvmwatcher*.properties
+build.properties
+
+# generated java classes and java source files
+#   manually add any custom artifacts that can't be generated from the models
+#   http://confluence.jetbrains.com/display/MPSD25/HowTo+--+MPS+and+Git
+classes_gen
+source_gen
+source_gen.caches
+
+# generated test code and test results
+test_gen
+test_gen.caches
+TEST-*.xml
+junit*.properties
 
